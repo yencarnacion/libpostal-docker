@@ -1,0 +1,27 @@
+libpostal-docker
+===============
+
+https://www.docker.io/[Docker] executable container for https://github.com/openvenues/libpostal[libpostal]
+
+License
+-------
+This work (libpostal-docker) is licensed by Yamir Encarnación <yencarnacion@webninjapr.com> under the MIT License.  See LICENSE.adoc
+
+Dockerfile
+----------
+Use this to build a new image
+
+    $ docker build .
+
+With a tag for easier reuse
+
+    $ docker build  -t <your username>/libpostal-docker .
+
+Running the container
+
+    $ docker run --rm -ti <your username>/libpostal-docker <Address you want parsed>
+    e.g., docker run --rm -ti yencarnacion/libpostal-docker Pearson VUE Test Center, Calle C 475, DASE Building - Suite 502, Guaynabo, PR 00969
+
+
+Last built successfully on February 13, 2017.
+

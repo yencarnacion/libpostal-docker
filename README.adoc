@@ -1,11 +1,11 @@
-libpostal-docker
+simple-libpostal-docker
 ===============
 
 https://www.docker.io/[Docker] executable container for https://github.com/openvenues/libpostal[libpostal]
 
 License
 -------
-This work (libpostal-docker) is licensed by Yamir Encarnación <yencarnacion@webninjapr.com> under the MIT License.  See LICENSE.adoc
+This work (simple-libpostal-docker) is licensed by Yamir Encarnación <yencarnacion@webninjapr.com> under the MIT License.  See LICENSE.txt
 
 Dockerfile
 ----------
@@ -15,12 +15,12 @@ Use this to build a new image
 
 With a tag for easier reuse
 
-    $ docker build  -t <your username>/libpostal-docker .
+    $ docker build  -t <your username>/simple-libpostal-docker .
 
 Running the container
 
-    $ docker run --rm -ti <your username>/libpostal-docker <Address you want parsed>
-    e.g., docker run --rm -ti yencarnacion/libpostal-docker Pearson VUE Test Center, Calle C 475, DASE Building - Suite 502, Guaynabo, PR 00969
+    $ docker run --rm -ti <your username>/simple-libpostal-docker <Address you want parsed>
+    e.g., docker run --rm -ti yencarnacion/simple-libpostal-docker Pearson VUE Test Center, Calle C 475, DASE Building - Suite 502, Guaynabo, PR 00969
 
 
 Last built successfully on February 13, 2017.

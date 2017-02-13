@@ -1,5 +1,5 @@
 simple-libpostal-docker
-===============
+=======================
 
 https://www.docker.io/[Docker] executable container for https://github.com/openvenues/libpostal[libpostal]
 
